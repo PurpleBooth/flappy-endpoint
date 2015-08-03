@@ -49,7 +49,7 @@ We use [SemVer](http://semver.io/) for the version tags available See the tags o
 ## Authors
 
 * **Ben Waine** - *He wrote it, go see his talks!* - [LoveSoftware](https://github.com/LoveSoftware)
-* **Billie Thompson** - *Ported the dev environment to Docker* - [LoveSoftware](https://github.com/PurpleBooth)
+* **Billie Thompson** - *Ported the dev environment to Docker* - [PurpleBooth](https://github.com/PurpleBooth)
 
 See also the list of [contributors](https://github.com/PurpleBooth/flappy-endpoint/contributors) who participated in this project.
 
