@@ -18,7 +18,7 @@ You'll need [boot2docker](http://boot2docker.io/)
 Get boot2docker running
 
 ```
-init && boot2docker up && eval $(boot2docker shellinit)
+boot2docker init && boot2docker up && eval $(boot2docker shellinit)
 ```
 
 Then run the application with
