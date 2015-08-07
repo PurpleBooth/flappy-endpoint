@@ -9,7 +9,7 @@ metadata:
   name: flappy-silex
 spec: 
   ports: 
-    -
+    - 
       name: http
       port: 80
       protocol: TCP
