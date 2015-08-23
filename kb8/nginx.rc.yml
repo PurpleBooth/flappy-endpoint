@@ -6,16 +6,20 @@ metadata:
     facing: front
     service: flappy
     type: nginx
-  name: flappy-nginx
+  name: flappy-nginx-v0
 spec: 
   replicas: 2
   selector: 
-    name: flappy-nginx
+    service: flappy
+    type: nginx
+    version: v0
   template: 
     metadata: 
-      labels: 
-        name: flappy-nginx
-    spec: 
+      labels:
+        service: flappy
+        type: nginx
+        version: v0
+    spec:
       containers: 
         - 
           env: 

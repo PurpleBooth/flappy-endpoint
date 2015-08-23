@@ -20,5 +20,6 @@ spec:
       protocol: TCP
       targetPort: https
   selector: 
-    name: flappy-nginx
+    service: flappy
+    type: nginx
   type: LoadBalancer

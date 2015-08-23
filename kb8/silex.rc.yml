@@ -6,15 +6,19 @@ metadata:
     facing: front
     service: flappy
     type: silex
-  name: flappy-silex
+  name: flappy-silex-v1
 spec: 
   replicas: 2
   selector: 
-    name: flappy-silex
-  template: 
+    service: flappy
+    type: silex
+    version: v1
+  template:
     metadata: 
       labels: 
-        name: flappy-silex
+        service: flappy
+        type: silex
+        version: v1
     spec: 
       containers: 
         - 
