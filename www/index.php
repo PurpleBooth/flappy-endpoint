@@ -23,6 +23,16 @@ $app->get(
 );
 
 /**
+ * An additional endpoint to demonstrate rolling updates
+ */
+$app->get(
+    '/v2', function () use ($app) {
+    return 'Hey look, a new version!';
+}
+);
+
+
+/**
  * This endpoint produces either a succesfull response or one of a few predefined errors.
  * It allows us to demo logstash's ability to surface errors from logs.
  *
